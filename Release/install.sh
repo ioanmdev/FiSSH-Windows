@@ -34,7 +34,7 @@ echo "---------------------------------------------------------------------"
 echo "WARNING: THE FOLLOWING SECURITY CHECK NEEDS TO BE PERFORMED MANUALLY!"
 echo "---------------------------------------------------------------------"
 echo
-echo "Open $drive:\\FiSSH and right click the FiSSH.exe file and go to properties. Then click on Digital Signatures. Make SURE the signature says \"Open Source Developer, Ioan Moldovan\" and is validated by \"Certum Code Sign CA 2\". Make SURE the signature is trusted. This ensures the file's integrity"
+echo "Open $drive:\\FiSSH and right click the FiSSH.exe file and go to properties. Then click on Digital Signatures. Make SURE the signature says \"Moldovan Alexandru. Ioan Intreprindere Individuala\" and is validated by \"SSL.com Root Certification Authority RSA\". Make SURE the signature is trusted. This ensures the file's integrity"
 echo
 digsignok="UNKNOWN"
 while [[ "$digsignok" != "YES" ]]; do
